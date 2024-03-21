@@ -7,7 +7,7 @@ commit_title="${1:-Default commit message}"
 git commit -m "$commit_title"
 
 # # Push the changes to the remote repository
-# git push
+git push
 
 # # Deploy the changes to the AWS with GitHub Actions
 # gh workflow run .... --field key=value
